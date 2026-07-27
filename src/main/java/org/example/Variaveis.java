@@ -5,8 +5,11 @@ package org.example;
 public class Variaveis {
     public static void main(String[] args) {
 
-        int farinha = 2;
-        System.out.println("A receita requer " + farinha + "de farinha");
-
+        int soma = 0; // Inicializa a variável soma com 0
+        for (int i = 1; i <= 10; i++) {
+            soma += i; // Soma o valor de i à variável soma
+        }
+        System.out.println("A soma dos números de 1 a 10 é: " +
+                soma);
     }
 }
