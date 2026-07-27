@@ -10,7 +10,11 @@ public class Funcionario {
 
     }
     public String obterInfo() {
-        return "Nome: " + nome + " Salario: " + salario;
+        return "Nome: " + nome + ", Salario: " + salario;
+    }
+
+    public void aumentarSalario(double aumento) {
+        salario += aumento;
     }
 
 }

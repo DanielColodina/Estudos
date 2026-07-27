@@ -6,5 +6,8 @@ public class FolhaDePagamento {
 
         Funcionario funcionario = new Funcionario("Arnaldo", 6200.00);
         System.out.println(funcionario.obterInfo());
+        System.out.println("-------------------------------------");
+        funcionario.aumentarSalario(1000.00);
+        System.out.println(funcionario.obterInfo());
     }
 }
