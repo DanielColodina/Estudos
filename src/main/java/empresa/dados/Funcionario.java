@@ -16,5 +16,9 @@ public class Funcionario {
     public void aumentarSalario(double aumento) {
         salario += aumento;
     }
+    public void aumentarSalario(int porcentagem) {
+        //Tipo diferente de argumento
+        salario += salario * porcentagem / 100.0;
+    }
 
 }
